@@ -1,0 +1,291 @@
+Q-1
+class program1
+{
+public static void main (String args[])
+{
+System.out.println("Hello");
+System.out.println("kumar pawar");
+
+}
+
+}
+
+Q-2
+
+import java.util.*;
+class program3
+{
+public static void main(String args [])
+{
+int i = 74 ;
+int j = 36 ;
+inj k = i + j ;
+System.out.println("Addition : : "+k);
+
+}
+
+
+}
+
+Q-3
+
+import java.util.*;
+
+class program5
+{
+public static void main(String [] args)
+{
+Scanner sc = new Scanner(System.in);
+System.out.println("enter the values");
+int i = sc.nextInt();
+int j = sc.nextInt();
+int k = i / j;
+
+System.out.println("Result ::" +k);
+
+}
+
+
+}
+
+Q-4
+import java.util.*;
+class program10
+{
+public static void main(String []args)
+{
+Scanner sc = new Scanner(System.in);
+int a = sc.nextInt();
+int b = sc.nextInt();
+int c = sc.nextInt();
+int d = a+b*c;
+System.out.println("ans1 :: "+d);
+int e = sc.nextInt();
+int f = sc.nextInt();
+int g = (e+f)%f;
+System.out.println("ans2 :: "+g);
+int h = sc.nextInt();
+int i = sc.nextInt();
+int j = sc.nextInt();
+int k = sc.nextInt();
+int l = h+i*j/k;
+System.out.println("ans3 :: "+l);
+int m = sc.nextInt();
+int n = sc.nextInt();
+int o = sc.nextInt();
+int p = sc.nextInt();
+int q = sc.nextInt();
+int r = sc.nextInt();
+int s = m+n/o*p-q%r;
+System.out.println("ans4 :: "+s);
+
+
+}
+
+}
+
+Q-5
+import java.util.*;
+class program7
+{
+public static void main(String [] args)
+{
+Scanner sc = new Scanner(System.in);
+int a = sc.nextInt();
+int b = sc.nextInt();
+int c = a*b;
+System.out.println("multiplication ::"+c);
+
+}
+}
+
+Q-6
+import java.util.*;
+class program8{
+public static void main(String args [])
+{
+Scanner sc = new Scanner (System.in);
+int a = sc.nextInt();
+int b = sc.nextInt();
+int c = a + b;
+int d = a - b;
+int e = a * b;
+int f = a / b;
+int g = a % b;
+System.out.println("Add ::  "+c);
+System.out.println("Subs ::  "+d);
+System.out.println("Multi::  "+e);
+System.out.println("Divide::  "+f);
+System.out.println("Mod ::  "+g);
+}
+
+}
+
+
+Q-7
+import java.util.*;
+class table{
+public static void main(String[]args)
+{
+Scanner sc = new Scanner(System.in);
+int num = sc.nextInt();
+int i = 1;
+for ( ;i<=10; i++)
+ 
+System.out.println(num+ "x" +i+ "=" +num*i);
+}
+
+}
+
+Q-8
+class simple{
+public static void main(String [] args)
+{
+System.out.println("   j    a  v     v   a");
+System.out.println("   j   a a  v   v   a a");
+System.out.println("j  j  aaaaa  v v   aaaaa");
+System.out.println( "jj  a     a  v   a     a");
+
+
+}
+
+}
+
+
+Q-9
+class formula2{
+public static void main(String[]args)
+{
+System.out.println(((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5))
+);
+
+}
+
+
+}
+
+ Q-10
+class formula{
+public static void main(String[]args)
+{
+System.out.println(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
+
+}
+
+
+}
+
+
+Q-11 
+
+//import java.util.*;
+class circle{
+public static void main(String [] args)
+{
+	//Scanner sc = new Scanner(System.in);
+	float a = 7.5F;
+	float pi = 3.14F;
+	double area = pi * a * a ;
+	double peri = 2 * pi * a ;
+ 
+ System.out.println("Area = "+area);
+ System.out.println("Perimeter = "+peri);
+}
+}
+
+Q-12 
+
+ import java.util.*;
+ class average{
+ public static void main(String[]args)
+ {
+ Scanner sc =new Scanner(System.in);
+ int a = sc.nextInt();
+ int b = sc.nextInt();
+ int c = sc.nextInt();
+ int d = (a+b+c)/3;
+ System.out.println("average::"+d);
+ 
+ }
+
+}
+
+Q-13
+
+public class program11
+{
+public static void main (String [] args)
+{
+float width = 5.6F;
+float hieght = 8.5F;
+float area = width * hieght ;
+float perimeter = 2 *(width + hieght);
+System.out.println("area of the rectangle :: " +area);
+System.out.println("area of the perimeter :: " +perimeter);
+
+
+
+}
+
+}
+
+Q-14
+class flag{
+public static void main(String []args)
+{
+System.out.println("* * * * * * ==================================");
+System.out.println(" * * * * *  ==================================");
+System.out.println("* * * * * * ==================================");
+System.out.println(" * * * * *  ==================================");
+System.out.println("* * * * * * ==================================");
+System.out.println(" * * * * *  ==================================");
+System.out.println("* * * * * * ==================================");
+System.out.println(" * * * * *  ==================================");
+System.out.println("* * * * * * ==================================");
+System.out.println("==============================================");
+System.out.println("==============================================");
+System.out.println("==============================================");
+System.out.println("==============================================");
+System.out.println("==============================================");
+System.out.println("==============================================");
+
+
+}
+
+
+}
+
+Q-15
+
+import java.util.*;
+public class swap{
+public static void main(String [] args)
+{
+Scanner sc = new Scanner(System.in);
+int a = sc.nextInt();
+int b = sc.nextInt();
+int temp;
+System.out.println("before swapping  a:: " +a);
+System.out.println("before swapping b :: " +b);
+temp = a;
+ a =  b ;
+ b = temp;
+ System.out.println("aftre swapping a :: " +a);
+System.out.println("aftre swapping b :: " +b);
+
+
+}
+}
+
+
+Q-16
+class face{
+public static void main(String [] args)
+{
+System.out.println("    +-----+  "   );
+System.out.println("    [| o o |]  ") ;
+System.out.println("      |  ^  |   ");
+System.out.println("      | '_' |   " );
+System.out.println("  +_____+  ");
+}
+}
