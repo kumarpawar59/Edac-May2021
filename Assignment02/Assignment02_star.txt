@@ -1,0 +1,420 @@
+Question 1
+
+class star1
+{
+public static void main(String[]args)
+   {
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			System.out.print("*");
+			System.out.println();
+		}
+			
+   }
+
+}
+
+Question 2
+
+
+class star2
+{
+public static void main(String[]args)
+   {
+		for(int i=1;i<=5;i++)
+		{
+			for(int k=4;k>=i;k--)
+			{
+			 System.out.print(" ");
+			}
+			for(int j=1;j<=i;j++)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}		
+   }
+}
+
+Question 3
+
+class star3
+{
+public static void main(String[]args)
+   {
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=5;j>=i;j--)
+			{
+			System.out.print("*");
+			}
+			
+			
+			System.out.println();
+		}		
+   }
+}
+
+Question 4
+
+class star4
+{
+public static void main(String[]args)
+   {
+		for(int i=1;i<=5;i++)
+		{
+			for (int k=2;k<=i;k++)
+			{
+				System.out.print(" ");
+			}	
+			for(int j=5;j>=i;j--)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}		
+   }
+}
+
+Question 5
+
+class star5
+{
+public static void main(String[]args)
+   {	int z=1;
+		for(int i=1;i<=5;i++)//row
+		{
+			for (int k=4;k>=i;k--)//space
+			{
+				System.out.print(" ");
+			}	
+			for(int j=1;j<=z;j++)//column
+			{
+			System.out.print("*");
+			
+			}
+			z+=2;
+			System.out.println();
+		}		
+   }
+}
+Question 6
+
+
+class star6
+{
+public static void main(String[]args)
+   {	int z=9;
+		for(int i=1;i<=5;i++)//row
+		{
+			for (int k=1;k<=i;k++)//space
+			{   
+				System.out.print(" ");
+			}	
+			for(int j=1;j<=z;j++)//column
+			{
+			System.out.print("*");
+			}
+			z-=2;
+			System.out.println();
+		}		
+   }
+}
+
+Question 7
+
+class star7
+{
+public static void main(String[]args)
+   {	int z=1;
+		for(int i=1;i<=5;i++)//row
+		{
+			for (int k=4;k>=i;k--)//space
+			{   
+				System.out.print(" ");
+			}	
+			for(int j=1;j<=z;j++)//column
+			{
+			System.out.print("*");
+			}
+			z+=2;
+			System.out.println();
+		
+		}
+		{
+		int x=7;
+		for(int i=1;i<=4;i++)//row
+
+		   {
+			for(int k=1;k<=i;k++)//space
+			{   
+				System.out.print(" ");
+			}	
+			for(int j=1;j<=x;j++)//column
+			{
+			System.out.print("*");
+			}
+			x-=2;
+			System.out.println();	
+		   }
+		}  	
+		
+   }
+}
+
+
+Question 8
+
+class star8
+{
+	public static void main(String[]args)
+	{
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+		for(int i=1;i<=4;i++)
+		{		
+			for(int k=4;k>=i;k--)
+				{
+					System.out.print("*");
+				}
+					System.out.println();
+		}
+	}
+}
+
+Question 9
+
+class star9
+{
+	public static void main(String[]args)
+	{
+		for(int i=1;i<=5;i++)//row
+		{	
+			for(int l=4;l>=i;l--)
+			{
+			System.out.print(" ");
+			}
+			for(int j=1;j<=i;j++)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+		for(int i=1;i<=4;i++)
+		{		
+			for(int j=1;j<=i;j++)
+			{
+			System.out.print(" ");
+			}
+			for(int k=4;k>=i;k--)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+}
+
+
+Question 10
+
+class star10
+{
+	public static void main(String[]args)
+	{
+		for(int i=1;i<=5;i++)//row
+		{	
+			for(int l=5;l>=i;l--)// space
+			{
+			System.out.print(" ");
+			}
+			for(int j=1;j<=5;j++)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+	}
+}
+
+
+Question 11
+
+
+class star11
+{
+	public static void main(String[]args)
+	{
+		for(int i=1;i<=5;i++)//row
+		{	
+			for(int l=1;l<=i;l++)// space
+			{
+			System.out.print(" ");
+			}
+			for(int j=1;j<=5;j++)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+	}
+}
+
+Question 12
+
+class star12
+{
+	public static void main(String[]args)
+	{
+		for(int i=1;i<=5;i++)//row
+		{	
+			for(int j=5;j>=i;j--)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+		for(int i=2;i<=5;i++)//row
+		{	
+			for(int j=1;j<=i;j++)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+	}
+}
+
+
+Question 13
+
+
+class star13
+{
+	public static void main(String[]args)
+	{
+		for(int i=1;i<=5;i++)//row
+		{	
+			for(int k=1;k<=i;k++)
+			{
+			System.out.print(" ");
+			}	
+			for(int j=5;j>=i;j--)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+		for(int i=1;i<=5;i++)//row
+		{	
+			for(int k=5;k>=i;k--)
+			{
+			System.out.print(" ");
+			}
+			for(int j=1;j<=i;j++)
+			{
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+	}
+}
+
+
+Question 14
+
+
+class star14
+{
+	public static void main(String[]args)
+	{
+		for(int i=1;i<=5;i++)//row
+		{	
+			for(int k=1;k<=i;k++)
+			{
+			System.out.print(" ");
+			}	
+			for(int j=5;j>=i;j--)
+			{
+			System.out.print("*"+" ");
+			}
+			System.out.println();
+		}
+		
+		
+		for(int i=2;i<=5;i++)//row
+		{	
+			for(int k=5;k>=i;k--)
+			{
+			System.out.print(" ");
+			}	
+			for(int j=1;j<=i;j++)
+			{
+			System.out.print("*"+" ");
+			}
+			
+			System.out.println();
+		}
+		
+	}
+}
+
+
+Question 15
+
+class star15
+{
+public static void main(String[]args)
+
+	{
+	 for(int i=5;i>=1;i--)
+	 {
+		for (int j=5;j>=i;j--)
+		{
+		 if(i==1 || j==5 || i==j)
+			 System.out.print("*");
+		 else
+			 System.out.print(" ");
+		}
+		 System.out.println();
+	 }
+	}
+}
+
+
+Question 16
+
+class star16
+{
+public static void main(String[]args)
+
+	{
+	 for(int i=1;i<=5;i++)
+	 {   
+		for ( int k=4;k>=i;k--)
+		{
+			 System.out.print(" ");
+		}	
+			
+		for (int j=1;j<=i;j++)
+		{
+		 if(i==5 || j==1 || j==i)
+			 System.out.print("*");
+		 else
+			 System.out.print(" ");
+		}
+		 System.out.println();
+	 }
+	}
+}

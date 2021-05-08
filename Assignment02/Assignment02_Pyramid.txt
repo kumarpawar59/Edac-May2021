@@ -1,0 +1,334 @@
+
+**pyramid 1
+
+class pi18
+{
+public static void main(String[]args)
+	{    
+		
+		for (int i=1 ;i<=9;i++)
+		{
+		 for(int j=9 ;j>=i ;j--)
+		 {
+		  System.out.print(" ");
+		 }
+		 for(int k=1;k<=i;k++)
+		 {
+		  System.out.print(i+" ");
+		 }
+		 System.out.println();
+		}
+	}
+}
+**pyramid 2
+
+class pi19
+{
+public static void main(String[]args)
+	{    
+		
+		for (int i=1 ;i<=9;i++)
+		{
+		 for(int j=9 ;j>=i ;j--)
+		 {
+		  System.out.print(" ");
+		 }
+		 for(int k=1;k<=i;k++)
+		 {
+		  System.out.print(k+" ");
+		 }
+		 System.out.println();
+		}
+	}
+}
+
+**pyramid 3
+
+class pi20
+{
+public static void main(String[]args)
+	{    
+		
+		for (int i=1 ;i<=9;i++)
+		{
+		 for(int j=9 ;j>=i ;j--)
+		 {
+		  System.out.print(" ");
+		 }
+		 for(int k=1;k<=i;k++)
+		 {
+		  System.out.print("*"+" ");
+		 }
+		 System.out.println();
+		}
+	}
+}
+
+**pyramid 4
+
+class pypatt4
+{
+public static void main(String[]args)
+	{    
+	   
+		for (int i=1 ;i<=9;i++)
+		{
+		 for(int j=10;j>=i ;j--)
+		 {
+		  System.out.print(" ");
+		 }
+		 for(int k=1;k<=i;k++)
+		 {
+		  System.out.print(k);
+		 }
+		 for(int l=i-1;l>=1;l--)
+		 {
+			System.out.print(l);	
+		 }
+		 
+		 System.out.println();
+		}
+		
+		 
+		
+	}
+}
+
+
+**pyramid 5
+
+class number1
+{
+public static void main(String[]args)
+{    int m=9;
+     int p=9;
+	 for(int i=1; i<=9 ;i++)
+	{
+		for( int j=9 ; j>=i;j--)
+		{
+			System.out.print(" ");
+		}
+		
+		for( int k=m; k<=9;k++)
+		{
+			System.out.print(k);
+		}
+		for(int h=p;h<=9;h++)
+		{
+			if(h==9)
+			System.out.print(" ");	
+		    else
+		    System.out.print(h);
+		}	
+		m-=1;
+		p-=1;
+		
+		System.out.println();
+	}
+	
+}
+}
+
+
+**pyramid 6
+
+class patt6
+{
+public static void main(String[]args)
+	{    
+		
+		for (int i=1;i<=9;i++)
+		{
+		 for(int j=1;j<=i;j++)
+		 {
+		  System.out.print(" ");
+		 }
+		 for(int k=9;k>=i;k--)
+		 {
+		  System.out.print("*"+" ");
+		 }
+		 
+		 System.out.println();
+		}
+		
+		 
+		
+	}
+}
+
+**pyramid 7
+
+class patt7
+{
+public static void main(String[]args)
+	{    
+		int m=1;
+		for (int i=9;i>=1;i--)
+		{
+		 for(int j=1;j<=m;j++)
+		 {
+		  System.out.print(" ");
+		 }
+		 for(int k=1;k<=i;k++)
+		 {
+		  System.out.print(i+" ");
+		 }
+		 m+=1;
+		 System.out.println();
+		}
+		
+		 
+		
+	}
+}
+
+**pyramid 8
+
+
+class patt8
+{
+public static void main(String[]args)
+	{    
+		
+		for (int i=1;i<=6;i++)
+		{
+		 for(int k=1;k<=i;k++)
+		 {
+		  System.out.print("*"+" ");
+		 }
+		
+		 System.out.println();
+		}
+		
+		 
+		
+	}
+}
+
+**pyramid 9
+
+class patt9
+{
+public static void main(String[]args)
+	{    
+		
+		for (int i=6;i>=1;i--)
+		{
+		 for(int k=1;k<=i;k++)
+		 {
+		  System.out.print("*"+" ");
+		 }
+		
+		 System.out.println();
+		}
+		
+		 
+		
+	}
+}
+
+**pyramid 10
+
+class hollowtringle
+{
+public static void main(String[]args)
+	{    
+		
+		for (int i=1;i<=6;i++)
+		{
+		 for(int l=6;l>=i;l--)
+		 {
+			if( i==1  ||  l== 6 || i==l)
+		    System.out.print("*");
+			else
+			System.out.print(" ");
+			
+		 }
+		 
+		 System.out.println();
+		}
+		
+		 
+		
+	}
+}
+
+**pyramid 11
+
+class patt10
+{
+public static void main(String[]args)
+	{    
+		int m=6;
+		for (int i=1;i<=6;i++)
+		{
+		 for(int l=1;l<=m;l++)
+		 {
+		  System.out.print(" ");
+		 }
+		 for(int k=1;k<=i;k++)
+		 {
+		  System.out.print("*"+" ");
+		 }
+		 m-=1;
+		 System.out.println();
+		}
+		
+		 
+		
+	}
+}
+
+
+**pyramid 12
+
+class patt11
+{
+public static void main(String[]args)
+	{    
+		int m=1;
+		for (int i=1;i<=6;i++)
+		{
+		 for(int l=1;l<=m;l++)
+		 {
+		  System.out.print(" ");
+		 }
+		 for(int k=6;k>=i;k--)
+		 {
+		  System.out.print("*"+" ");
+		 }
+		 m+=1;
+		 System.out.println();
+		}
+		
+		 
+		
+	}
+}
+
+
+**pyramid 13
+
+class last
+{
+ public static void main(String[]args)
+ {
+  for(int i=1;i<=6;i++)
+   {
+	 for(int j=6;j>=i;j--)
+	 {
+		 System.out.print(" ");
+	 }	
+    for(int k=1;k<=i;k++)	
+	{
+     if( i==1 || k==1 || i==6 || k==6 || i==k )
+	 System.out.print("*"+" ");
+	 else
+	 System.out.print(" "+" ");
+	}
+	System.out.println();
+   }
+   
+   
+ }
+}

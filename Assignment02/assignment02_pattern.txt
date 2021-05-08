@@ -1,0 +1,387 @@
+Quetion 1
+
+class pattern1
+{
+public static void main(String [] args)
+    {
+	  for(int i=1 ; i<=5 ; i++)
+	  {
+	   for(int j=1; j<=i; j++)
+	   System.out.print(" "+j);
+	   System.out.println();
+	  }
+	}
+}
+
+Quetion 2
+
+class pattern2
+{
+public static void main(String [] args)
+    {
+	  int a = 64;
+	  for(int i=1 ; i<=5 ; i++)
+	  {
+	   for(int j=1; j<=i; j++)
+	   {
+		   System.out.print((char)(a+j)+" ");//typecasting
+	   }
+	       System.out.println();
+	  }
+	  
+	}
+}
+
+
+Quetion 3
+
+class pattern3
+{
+public static void main(String [] args)
+{
+    for( int i=1; i<=5 ;i++)
+	{
+	   for (int j=1 ; j<=i ; j++)
+	   {
+	   System.out.print("* ");
+	   
+	   }
+	   System.out.println();
+	}  
+}	
+}
+
+Quetion 4
+
+class pattern4
+{
+public static void main(String [] args)
+    {
+	  for(int i=1 ; i<=5 ; i++)
+	  {
+	   for(int j=1; j<=i; j++)
+		
+	   {
+		 
+		 System.out.print(" "+i);  
+	   }
+	   
+	   System.out.println();
+	  }
+	}
+}
+
+Quetion 5
+
+class pattern5
+{
+public static void  main (String[]args)
+   {
+	   int a =64 ;
+   for(int i=1 ; i<=5; i++)
+      {
+	     for(int j=1 ; j<=i; j++)
+		 {
+		 System.out.print((char)(i+a));
+		 System.out.print(" ");
+		 
+		 }
+		 System.out.println();
+		 
+	  }
+	  
+   }
+
+Quetion 6
+
+class pattern6
+{
+public static void main(String [] args)
+    {
+	  for(int i=1;i<=5;i++)//row
+	  {
+	    for(int j=4;j>=i;j--)
+		{
+		  System.out.print(" "); //space
+		}
+		for(int k=1;k<=i;k++)
+		{	
+		System.out.print("*" );
+		}
+		System.out.println();
+	  }
+	  
+	}
+
+}
+
+Quetion 7
+
+class pattern7
+{
+public static void main(String [] args)
+    {
+	 for ( int i=1;i<=5;i++) //row
+	 {
+		 for ( int j=4;j>=i;j--) //space
+		 {
+		 System.out.print(" ");
+		 }
+		 for ( int k=1;k<=i;k++) //column
+		 {
+		 System.out.print(" "+k);
+		 }
+		 System.out.println();
+	 }
+	}
+
+}
+
+Quetion 8
+
+class pattern8
+{
+public static void main(String [] args)
+    {
+	 int x=0;
+	 for ( int i=1;i<=5;i++) //row
+	 {
+		 for ( int j=5;j>=i;j--) //space
+		 {
+		 System.out.print(" ");
+		 }
+		 for ( int k=5-x;k<=5;k++) //column
+		 {
+		 System.out.print(" "+k);	 
+		 }
+		 x+=1;
+		 System.out.println();
+	 }
+	}
+
+}
+
+Quetion 9
+
+class  pattern9
+{
+public static void main(String[]args)
+    { 
+     	int a=64;
+	  for(int i=1;i<=5;i++)//row
+	   {
+	     for(int j=4;j>=i;j--)//space
+		 {
+	     System.out.print(" ");
+	     }
+		 for(int k=1;k<=i;k++)//column
+	     {
+			 
+		  System.out.print((char)(k+a)+" ");
+		  
+		    
+		 }
+		 System.out.println();
+	   }	 
+	
+	
+	}
+
+
+}
+
+
+Quetion 10
+
+
+class pattern10
+{
+public static void main(String [] args)
+    {
+	 int x=0;
+	 int a= 64;
+	 for ( int i=1;i<=5;i++) //row
+	 {
+		 for ( int j=5;j>=i;j--) //space
+		 {
+		 System.out.print(" ");
+		 }
+		 for ( int k=5-x;k<=5;k++) //column
+		 {
+		 System.out.print((char)(a+k)+" ");	 
+		 }
+		 x+=1;
+		 System.out.println();
+	 }
+	}
+
+}
+
+
+Quetion 11
+
+class  pattern11
+{
+public static void main(String[]args)
+    { 
+	  int v=1;
+      for (int i=1 ; i<=5 ; i++	)
+	  { 
+		for(int j=4 ; j>=i ;j--)
+		{	
+         System.out.print(" ");			 
+		}
+        for(int k=1 ; k<=v ;k++)
+		{
+		System.out.print("*");	
+		}
+	    v+=2;
+		System.out.println();			
+	  }
+		
+	}	 
+	
+}
+
+Quetion 12
+
+class pattern12
+{
+public static void main(String [] args)
+    {
+	  int b=1;
+	  for(int i=1;i<=5;i++)//row
+	  {
+	    for(int j=4;j>=i;j--)
+		{
+		  System.out.print(" "); //space
+		}
+		for(int k=1;k<=b;k++)
+		{	
+		System.out.print(b+" ");
+		}
+		b+=1;
+		System.out.println();
+	  }
+	  
+	}
+
+}
+
+Quetion 13
+
+class pattern13
+{
+public static void main(String [] args)
+    { 
+	  int s = 64;
+	  int b=1;
+	  for(int i=1;i<=5;i++)//row
+	  {
+	    for(int j=4;j>=i;j--)
+		{
+		  System.out.print(" "); //space
+		}
+		for(int k=1;k<=b;k++)
+		{	
+		System.out.print((char)(s+b)+" ");
+		}
+		b+=1;
+		System.out.println();
+	  }
+	  
+	}
+
+}
+
+Quetion 14
+
+class pattern14
+{
+public static void main(String[]args)
+{
+  for(int i=5 ; i>=1 ; i--)
+   {
+    for ( int j=1; j<=i ; j++)
+	{
+	  System.out.print(j+" ");
+	}
+	System.out.println();
+   }
+}
+}
+
+
+Quetion 15
+
+class pattern15
+{
+public static void main(String[]args)
+{
+  for(int i=1 ; i<=5 ; i++)
+   {
+    for ( int j=5; j>=i ; j--)
+	{
+	  System.out.print(j+" ");
+	}
+	System.out.println();
+   }
+}
+}
+
+
+Quetion 16
+
+class pattern16
+{
+public static void main(String[]args)
+{
+  for(int i=5 ; i>=1 ; i--)
+   {
+    for ( int j=5; j>=i ; j--)
+	{
+	  System.out.print(j+" ");
+	}
+	System.out.println();
+   }
+}
+}
+
+Quetion 17
+
+class pattern17
+{
+public static void main(String[]args)
+{
+	int p=0;
+  for(int i=1 ; i<=5 ; i++)
+   {
+    for ( int j=1; j<=i ; j++)
+	{
+		p = p+1;
+	  System.out.print(p+" ");
+	}
+	
+	System.out.println();
+   }
+}
+}
+
+
+Quetion 18
+
+class pattern18
+{
+public static void main(String[]args)
+{   int alpha=70;
+	for(int i=1;i<=5;i++)
+	{
+		for(int j=5;j>=i;j--)
+		{
+			System.out.print((char)(alpha-j)+" ");
+		}
+		System.out.println();
+		
+	}	
+}
+}
