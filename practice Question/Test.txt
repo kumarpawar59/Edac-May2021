@@ -1,0 +1,12 @@
+1. WAP to accept 2 numbers from Command line argument and perform its addition and display
+2. WAP to accept number from user(Scanner class) print table of it
+	5*1=5
+	5*2=10
+	5*3=15
+	5*4=20
+..
+3.WAP to swap 2 numbers and display it before swap and after swap.
+4.WAP to check whether a number given is even or odd
+5.WAP to accept an array and display it in reverse form
+6.WAP to illustrate condition operator to find maximum among 2or 3 numbers
+7.WAP to illustrate example of typecasting 
